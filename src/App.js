@@ -1,4 +1,5 @@
 import './App.css';
+import Cards from './components/Cards';
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/navbar';
 
