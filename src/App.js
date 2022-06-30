@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <ItemListContainer saludoTemp={"Lista de productos cards"}/>
+      <ItemListContainer saludoTemp={"Lista de productos"}/>
     </div>
   )
 }
