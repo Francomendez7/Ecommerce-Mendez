@@ -12,7 +12,7 @@ function ItemList(){
     },[])
     
     console.log(info)
-
+    
     return(
         <div className="Card">
         {info && info.map(i => <Cards nombre={i.nombre} precio={i.precio} img={i.img} descripcion={i.descripcion} />)}
