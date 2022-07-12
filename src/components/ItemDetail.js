@@ -1,4 +1,7 @@
 function ItemDetail({id, nombre, precio, img, descripcion}){
+    const clickHandler = () => {
+        console.log("Compra finalizada")
+    };
     return(
         <div>
             <div>
@@ -6,6 +9,7 @@ function ItemDetail({id, nombre, precio, img, descripcion}){
                 <div>
                     <h2>{nombre}</h2>
                     <p>{descripcion}</p>
+                    <button onClick={clickHandler}>Finalizar compra</button>
                     <h3>{precio}</h3>
                 </div>
             </div>
